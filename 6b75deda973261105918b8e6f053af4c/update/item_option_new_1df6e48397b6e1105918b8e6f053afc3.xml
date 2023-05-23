@@ -19,7 +19,7 @@
         <dynamic_ref_qual/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>u_string_13</field>
+        <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -36,11 +36,11 @@
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
-        <map_to_field>true</map_to_field>
+        <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>u_string_13</name>
-        <order>600</order>
+        <order>700</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -73,7 +73,7 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>deniz.hernandez</sys_created_by>
-        <sys_created_on>2023-05-18 15:34:45</sys_created_on>
+        <sys_created_on>2023-05-23 17:13:41</sys_created_on>
         <sys_id>1df6e48397b6e1105918b8e6f053afc3</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Additional Comments</sys_name>
@@ -82,7 +82,7 @@
         <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
         <sys_update_name>item_option_new_1df6e48397b6e1105918b8e6f053afc3</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-05-18 16:22:55</sys_updated_on>
+        <sys_updated_on>2023-05-23 17:15:57</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
