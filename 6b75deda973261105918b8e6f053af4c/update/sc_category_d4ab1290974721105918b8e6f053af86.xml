@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog/>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>shakira.deary</sys_created_by>
+        <sys_created_on>2023-05-22 21:12:20</sys_created_on>
+        <sys_id>d4ab1290974721105918b8e6f053af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Feedback</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name>sc_category_d4ab1290974721105918b8e6f053af86</sys_update_name>
+        <sys_updated_by>shakira.deary</sys_updated_by>
+        <sys_updated_on>2023-05-22 21:12:20</sys_updated_on>
+        <title>Feedback</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=d4ab1290974721105918b8e6f053af86"/>
+</record_update>
