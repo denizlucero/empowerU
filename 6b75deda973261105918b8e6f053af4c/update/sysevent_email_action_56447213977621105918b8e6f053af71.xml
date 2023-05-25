@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_1022228_empoweru_empoweru_requests</collection>
+        <condition table="x_1022228_empoweru_empoweru_requests">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>triggered</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div style="border: solid #D9D9E3 1.0pt; padding: 0in 0in 0in 0in;">
+<p style="margin: 15pt 0in; border: none; padding: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 10.5pt; font-family: 'Segoe UI', sans-serif;">Dear Volunteer's Name,</span></p>
+<p style="margin: 15pt 0in; border: none; padding: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 10.5pt; font-family: 'Segoe UI', sans-serif;">Thank you for your interest in volunteering with EmpowerU Anti-Bullying. We are thrilled to have you on board as part of our team and appreciate your dedication to making a difference in the lives of young people.</span></p>
+<p style="margin: 15pt 0in; border: none; padding: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 10.5pt; font-family: 'Segoe UI', sans-serif;">We are pleased to confirm that we have successfully processed your volunteer signup for EmpowerU Anti-Bullying. Your commitment to our cause is truly inspiring, and we are grateful for your willingness to contribute your time and skills to our organization.</span></p>
+<p style="margin: 15pt 0in; border: none; padding: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 10.5pt; font-family: 'Segoe UI', sans-serif;">Please find below the details of your volunteer signup:</span></p>
+<p style="margin: 15pt 0in; border: none; padding: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 10.5pt; font-family: 'Segoe UI', sans-serif;">Volunteer Start Date: [Start Date] Volunteer End Date (if applicable): [End Date] Volunteer Role: [Volunteer Role]</span></p>
+<p style="margin: 15pt 0in; border: none; padding: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 10.5pt; font-family: 'Segoe UI', sans-serif;">We are excited to have you join us in our mission to combat bullying and create inclusive environments that promote empathy, respect, and kindness. Your contribution as a volunteer will help us reach out to schools, empower students, and raise awareness about the importance of standing up against bullying.</span></p>
+<p style="margin: 15pt 0in; border: none; padding: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 10.5pt; font-family: 'Segoe UI', sans-serif;">In the coming days, a member of our team will contact you to provide further information about your volunteer role, including training sessions, orientation, and any specific requirements or tasks associated with your role. We want to ensure that you are well-prepared and equipped to make a meaningful impact.</span></p>
+<p style="margin: 15pt 0in; border: none; padding: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 10.5pt; font-family: 'Segoe UI', sans-serif;">Once again, we extend our heartfelt gratitude for your commitment to EmpowerU Anti-Bullying. Together, we can create a world where every individual can thrive without fear of bullying.</span></p>
+<p style="margin: 15pt 0in; border: none; padding: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 10.5pt; font-family: 'Segoe UI', sans-serif;">If you have any questions or need any assistance, please feel free to reach out to us. We are here to support you throughout your volunteer journey with us.</span></p>
+<p style="margin: 15pt 0in; border: none; padding: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 10.5pt; font-family: 'Segoe UI', sans-serif;">Thank you once again for your valuable support.</span></p>
+<p style="margin: 0in 0in 15pt; line-height: normal; border: none; padding: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12.0pt; font-family: 'Times New Roman', serif;">Warm regards,</span></p>
+<p style="margin: 0in; line-height: normal; border: none; padding: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 28.0pt; font-family: 'Kunstler Script';">Carla Canterbury</span></p>
+<p style="margin: 0in; line-height: normal; border: none; padding: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12.0pt; font-family: 'Times New Roman', serif;">Donations Coordinator </span></p>
+<p style="margin: 0in; line-height: normal; border: none; padding: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12.0pt; font-family: 'Times New Roman', serif;">EmpowerU Anti-Bullying Initiatives</span></p>
+<p style="margin: 0in; line-height: normal; border: none; padding: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12.0pt; font-family: 'Times New Roman', serif;">7645 Empire Drive</span></p>
+<p style="margin: 0in; line-height: normal; border: none; padding: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12.0pt; font-family: 'Times New Roman', serif;">Suite 200</span></p>
+<p style="margin: 0in; line-height: normal; border: none; padding: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12.0pt; font-family: 'Times New Roman', serif;">Grapevine, TX&nbsp; 46485</span></p>
+</div>
+<p><span style="font-size: 11.0pt; line-height: 115%; font-family: Calibri, sans-serif;"><a style="color: blue; text-decoration: underline;" href="http://www.carla@EmpowerU.org"><span style="font-size: 12.0pt; line-height: 115%; font-family: 'Times New Roman', serif;">www.carla@EmpowerU.org</span></a></span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>EmpowerU Volunteer Confirmation</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>f5257d4a973221105918b8e6f053af47,5ef27186973221105918b8e6f053af36,6e16754a973221105918b8e6f053af5d,bf17f5ca973221105918b8e6f053afcd</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Confirmation: Volunteer Processing for EmpowerU Anti-Bullying</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>tolulope.solola</sys_created_by>
+        <sys_created_on>2023-05-19 20:42:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>56447213977621105918b8e6f053af71</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>EmpowerU Volunteer Confirmation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name>sysevent_email_action_56447213977621105918b8e6f053af71</sys_update_name>
+        <sys_updated_by>shakira.deary</sys_updated_by>
+        <sys_updated_on>2023-05-19 21:43:24</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
