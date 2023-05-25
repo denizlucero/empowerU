@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Supporting our Anti-bullying initiatives through volunteering, donating, providing feedback, and purchasing our products. </description>
+        <internal_name>empoweru_request</internal_name>
+        <label_cache>[{"name":"f97475d9-33da-4aee-b9cb-5a60244905dc.__dont_treat_as_error__","label":"2 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f97475d9-33da-4aee-b9cb-5a60244905dc.__action_status__","label":"2 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f97475d9-33da-4aee-b9cb-5a60244905dc.Table","label":"2 - Create Task➛EmpowerU Requests Table","reference":"x_1022228_empoweru_empoweru_requests","reference_display":"EmpowerU Requests Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f97475d9-33da-4aee-b9cb-5a60244905dc.Record","label":"2 - Create Task➛EmpowerU Requests Record","reference":"x_1022228_empoweru_empoweru_requests","reference_display":"EmpowerU Requests Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"acc01737-d1fc-476f-995f-01e3073a03eb.__dont_treat_as_error__","label":"1 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"acc01737-d1fc-476f-995f-01e3073a03eb.__action_status__","label":"1 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"acc01737-d1fc-476f-995f-01e3073a03eb.Table","label":"1 - Create Task➛EmpowerU Requests Table","reference":"x_1022228_empoweru_empoweru_requests","reference_display":"EmpowerU Requests Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"acc01737-d1fc-476f-995f-01e3073a03eb.Record","label":"1 - Create Task➛EmpowerU Requests Record","reference":"x_1022228_empoweru_empoweru_requests","reference_display":"EmpowerU Requests Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.sys_created_by","label":"Trigger - Record Created or Updated➛Volunteer Sign-Up Table Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_1022228_empoweru_volunteer_sign_up_table","column_name":"sys_created_by"},{"name":"d86a8676-0c67-4568-a478-362c067454ab.__dont_treat_as_error__","label":"2 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d86a8676-0c67-4568-a478-362c067454ab.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d86a8676-0c67-4568-a478-362c067454ab.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a30f25f-a426-4ec7-8bcc-a9dbd012b5a7.__dont_treat_as_error__","label":"3 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"4a30f25f-a426-4ec7-8bcc-a9dbd012b5a7.__action_status__","label":"3 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"4a30f25f-a426-4ec7-8bcc-a9dbd012b5a7.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_choice_5","label":"Trigger - Record Created or Updated➛Volunteer Sign-Up Table Record➛What days are you available?","reference":"","reference_display":"What days are you available?","type":"choice","base_type":"choice","parent_table_name":"x_1022228_empoweru_volunteer_sign_up_table","column_name":"u_choice_5","choices":[{"label":"Monday","used":false,"rawLabel":"Monday","selected":false,"missing":false,"image":"","reference":false,"value":"monday","parameters":{"name":"x_1022228_empoweru_volunteer_sign_up_table"}},{"label":"Tuesday","used":false,"rawLabel":"Tuesday","selected":false,"missing":false,"image":"","reference":false,"value":"tuesday","parameters":{"name":"x_1022228_empoweru_volunteer_sign_up_table"}},{"label":"Wednesday","used":false,"rawLabel":"Wednesday","selected":false,"missing":false,"image":"","reference":false,"value":"wednesday","parameters":{"name":"x_1022228_empoweru_volunteer_sign_up_table"}},{"label":"Thursday","used":false,"rawLabel":"Thursday","selected":false,"missing":false,"image":"","reference":false,"value":"thursday","parameters":{"name":"x_1022228_empoweru_volunteer_sign_up_table"}},{"label":"Friday","used":false,"rawLabel":"Friday","selected":false,"missing":false,"image":"","reference":false,"value":"friday","parameters":{"name":"x_1022228_empoweru_volunteer_sign_up_table"}},{"label":"Saturday","used":false,"rawLabel":"Saturday","selected":false,"missing":false,"image":"","reference":false,"value":"saturday","parameters":{"name":"x_1022228_empoweru_volunteer_sign_up_table"}}]},{"name":"Created or Updated_1.current.u_choice_4","label":"Trigger - Record Created or Updated➛Volunteer Sign-Up Table Record➛At what capacity would you like to volunteer?","reference":"","reference_display":"At what capacity would you like to volunteer?","type":"choice","base_type":"choice","parent_table_name":"x_1022228_empoweru_volunteer_sign_up_table","column_name":"u_choice_4","choices":[{"label":"Mentor","used":false,"rawLabel":"Mentor","selected":false,"missing":false,"image":"","reference":false,"value":"mentor","parameters":{"name":"x_1022228_empoweru_volunteer_sign_up_table"}},{"label":"Administrator","used":false,"rawLabel":"Administrator","selected":false,"missing":false,"image":"","reference":false,"value":"administrator","parameters":{"name":"x_1022228_empoweru_volunteer_sign_up_table"}},{"label":"Security","used":false,"rawLabel":"Security","selected":false,"missing":false,"image":"","reference":false,"value":"security","parameters":{"name":"x_1022228_empoweru_volunteer_sign_up_table"}},{"label":"Guest Speaker","used":false,"rawLabel":"Guest Speaker","selected":false,"missing":false,"image":"","reference":false,"value":"guest speaker","parameters":{"name":"x_1022228_empoweru_volunteer_sign_up_table"}},{"label":"Other","used":false,"rawLabel":"Other","selected":false,"missing":false,"image":"","reference":false,"value":"other","parameters":{"name":"x_1022228_empoweru_volunteer_sign_up_table"}}]},{"name":"664e4d0c-bcbc-4a36-8e46-59762ff44b82.__dont_treat_as_error__","label":"1 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"664e4d0c-bcbc-4a36-8e46-59762ff44b82.__action_status__","label":"1 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"664e4d0c-bcbc-4a36-8e46-59762ff44b82.table_name","label":"1 - Create Record➛Volunteer Sign-Up Table Table","reference":"x_1022228_empoweru_volunteer_sign_up_table","reference_display":"Volunteer Sign-Up Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"664e4d0c-bcbc-4a36-8e46-59762ff44b82.record","label":"1 - Create Record➛Volunteer Sign-Up Table Record","reference":"x_1022228_empoweru_volunteer_sign_up_table","reference_display":"Volunteer Sign-Up Table","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f6cdd763-0658-48f9-bdcf-2ce3109287a0.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f6cdd763-0658-48f9-bdcf-2ce3109287a0.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f6cdd763-0658-48f9-bdcf-2ce3109287a0.table_name","label":"1 - Update Record➛Volunteer Sign-Up Table Table","reference":"x_1022228_empoweru_volunteer_sign_up_table","reference_display":"Volunteer Sign-Up Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f6cdd763-0658-48f9-bdcf-2ce3109287a0.record","label":"1 - Update Record➛Volunteer Sign-Up Table Record","reference":"x_1022228_empoweru_volunteer_sign_up_table","reference_display":"Volunteer Sign-Up Table","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛EmpowerU Requests Table","reference":"x_1022228_empoweru_empoweru_requests","reference_display":"EmpowerU Requests","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"9aad8d1b-90fb-47f8-955f-03fc9854d7a6.__dont_treat_as_error__","label":"1 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9aad8d1b-90fb-47f8-955f-03fc9854d7a6.__action_status__","label":"1 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9aad8d1b-90fb-47f8-955f-03fc9854d7a6.Table","label":"1 - Create Task➛Volunteer Sign-Up Table Table","reference":"x_1022228_empoweru_volunteer_sign_up_table","reference_display":"Volunteer Sign-Up Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9aad8d1b-90fb-47f8-955f-03fc9854d7a6.Record","label":"1 - Create Task➛Volunteer Sign-Up Table Record","reference":"x_1022228_empoweru_volunteer_sign_up_table","reference_display":"Volunteer Sign-Up Table","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Volunteer Sign-Up Table Record","reference":"x_1022228_empoweru_volunteer_sign_up_table","reference_display":"Volunteer Sign-Up Table","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current","label":"Trigger - Record Created➛Volunteer Sign-Up Table Record","reference":"x_1022228_empoweru_volunteer_sign_up_table","reference_display":"Volunteer Sign-Up Table","type":"reference","base_type":"reference","attributes":{}},{"name":"d1498c02-d6a9-4613-86a3-3475544f91d9.__dont_treat_as_error__","label":"1 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d1498c02-d6a9-4613-86a3-3475544f91d9.__action_status__","label":"1 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d1498c02-d6a9-4613-86a3-3475544f91d9.state","label":"1 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"7463e1bb-79ac-41e8-a0c3-ecb54db8ebb2.record","label":"1 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7463e1bb-79ac-41e8-a0c3-ecb54db8ebb2.table_name","label":"1 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7463e1bb-79ac-41e8-a0c3-ecb54db8ebb2.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"7463e1bb-79ac-41e8-a0c3-ecb54db8ebb2.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"3f594cf3-4697-48c1-96b7-7ba466ad282b.state","label":"1 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"3f594cf3-4697-48c1-96b7-7ba466ad282b.__action_status__","label":"1 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"3f594cf3-4697-48c1-96b7-7ba466ad282b.__dont_treat_as_error__","label":"1 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Created or Updated_1.current.additional_assignee_list","label":"Trigger - Record Created or Updated➛EmpowerU Requests Record➛Additional assignee list","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"x_1022228_empoweru_empoweru_requests","column_name":"additional_assignee_list"},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger - Record Created or Updated➛EmpowerU Requests Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1022228_empoweru_empoweru_requests","column_name":"assigned_to"},{"name":"8e3038db-0188-4cb9-a7fc-561914c575d4.Record","label":"3 - Create Task➛Record","reference":"task","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e3038db-0188-4cb9-a7fc-561914c575d4.Table","label":"3 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e3038db-0188-4cb9-a7fc-561914c575d4.__action_status__","label":"3 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"8e3038db-0188-4cb9-a7fc-561914c575d4.__dont_treat_as_error__","label":"3 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>EmpowerU Request</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 15:16:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a1d3d6e097c361105918b8e6f053af71</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>EmpowerU Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name>sys_hub_flow_a1d3d6e097c361105918b8e6f053af71</sys_update_name>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 19:27:46</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=a1d3d6e097c361105918b8e6f053af71"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a1d3d6e097c361105918b8e6f053af71"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=a1d3d6e097c361105918b8e6f053af71^sys_idNOT IN0578c7a4978761105918b8e6f053afa1"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="EmpowerU Request">a1d3d6e097c361105918b8e6f053af71</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 19:06:29</sys_created_on>
+        <sys_id>0578c7a4978761105918b8e6f053afa1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 19:27:46</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0578c7a4978761105918b8e6f053afa1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>0578c7a4978761105918b8e6f053afa1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 19:06:29</sys_created_on>
+        <sys_id>4d78c7a4978761105918b8e6f053afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 19:06:29</sys_updated_on>
+        <value>x_1022228_empoweru_empoweru_requests</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>0578c7a4978761105918b8e6f053afa1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 19:06:29</sys_created_on>
+        <sys_id>8978c7a4978761105918b8e6f053afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 19:06:29</sys_updated_on>
+        <value>priority=1^state=1</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=0578c7a4978761105918b8e6f053afa1"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a1d3d6e097c361105918b8e6f053af71"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a1d3d6e097c361105918b8e6f053af71^sys_idNOT INf1d3d6e097c361105918b8e6f053af73"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a1d3d6e097c361105918b8e6f053af71</id>
+        <name>EmpowerU Request</name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 15:16:37</sys_created_on>
+        <sys_id>f1d3d6e097c361105918b8e6f053af73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 15:16:37</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f1d3d6e097c361105918b8e6f053af73"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a1d3d6e097c361105918b8e6f053af71^sys_idNOT IN3a0d9a2c97c361105918b8e6f053af24,e60d9a2c97c361105918b8e6f053af1c,fe0d9a2c97c361105918b8e6f053af27"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="EmpowerU Request">a1d3d6e097c361105918b8e6f053af71</model>
+        <model_id>a1d3d6e097c361105918b8e6f053af71</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a1d3d6e097c361105918b8e6f053af71</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 15:56:49</sys_created_on>
+        <sys_id>3a0d9a2c97c361105918b8e6f053af24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 15:56:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="EmpowerU Request">a1d3d6e097c361105918b8e6f053af71</model>
+        <model_id>a1d3d6e097c361105918b8e6f053af71</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a1d3d6e097c361105918b8e6f053af71</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 15:56:49</sys_created_on>
+        <sys_id>e60d9a2c97c361105918b8e6f053af1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 15:56:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="EmpowerU Request">a1d3d6e097c361105918b8e6f053af71</model>
+        <model_id>a1d3d6e097c361105918b8e6f053af71</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a1d3d6e097c361105918b8e6f053af71</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 15:56:49</sys_created_on>
+        <sys_id>fe0d9a2c97c361105918b8e6f053af27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 15:56:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=a1d3d6e097c361105918b8e6f053af71"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a1d3d6e097c361105918b8e6f053af71"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a1d3d6e097c361105918b8e6f053af71^sys_idNOT IN285d07e8978761105918b8e6f053af9d,6e8c87a8978761105918b8e6f053afd1,c578c7a4978761105918b8e6f053afa8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="EmpowerU Request">a1d3d6e097c361105918b8e6f053af71</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 19:27:46</sys_created_on>
+        <sys_id>285d07e8978761105918b8e6f053af9d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 19:27:46</sys_updated_on>
+        <ui_id>8e3038db-0188-4cb9-a7fc-561914c575d4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=285d07e8978761105918b8e6f053af9d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>285d07e8978761105918b8e6f053af9d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 19:27:46</sys_created_on>
+        <sys_id>605d07e8978761105918b8e6f053af9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 19:27:46</sys_updated_on>
+        <value>u_choice_3=Volunteer^assigned_to={"display":"Carla Canterbury","value":"bf17f5ca973221105918b8e6f053afcd","table":"sys_user","sys_id":"bf17f5ca973221105918b8e6f053afcd"}</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>285d07e8978761105918b8e6f053af9d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 19:27:46</sys_created_on>
+        <sys_id>ac5d07e8978761105918b8e6f053af9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 19:27:46</sys_updated_on>
+        <value>x_1022228_empoweru_empoweru_requests</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=285d07e8978761105918b8e6f053af9d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=285d07e8978761105918b8e6f053af9d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=285d07e8978761105918b8e6f053af9d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="EmpowerU Request">a1d3d6e097c361105918b8e6f053af71</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 19:24:21</sys_created_on>
+        <sys_id>6e8c87a8978761105918b8e6f053afd1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 19:27:46</sys_updated_on>
+        <ui_id>f97475d9-33da-4aee-b9cb-5a60244905dc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6e8c87a8978761105918b8e6f053afd1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e8c87a8978761105918b8e6f053afd1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 19:24:21</sys_created_on>
+        <sys_id>a68c87a8978761105918b8e6f053afd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 19:24:21</sys_updated_on>
+        <value>priority=2^assigned_to={"display":"Shakira Deary","value":"5ef27186973221105918b8e6f053af36","table":"sys_user","sys_id":"5ef27186973221105918b8e6f053af36"}</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e8c87a8978761105918b8e6f053afd1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 19:24:21</sys_created_on>
+        <sys_id>e28c87a8978761105918b8e6f053afd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 19:24:21</sys_updated_on>
+        <value>x_1022228_empoweru_empoweru_requests</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=6e8c87a8978761105918b8e6f053afd1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6e8c87a8978761105918b8e6f053afd1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6e8c87a8978761105918b8e6f053afd1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="EmpowerU Request">a1d3d6e097c361105918b8e6f053af71</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 19:06:29</sys_created_on>
+        <sys_id>c578c7a4978761105918b8e6f053afa8</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 19:27:46</sys_updated_on>
+        <ui_id>acc01737-d1fc-476f-995f-01e3073a03eb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c578c7a4978761105918b8e6f053afa8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c578c7a4978761105918b8e6f053afa8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 19:06:29</sys_created_on>
+        <sys_id>4d78c7a4978761105918b8e6f053afa9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 19:06:29</sys_updated_on>
+        <value>assigned_to={"display":"Tolulope Solola","value":"f5257d4a973221105918b8e6f053af47","table":"sys_user","sys_id":"f5257d4a973221105918b8e6f053af47"}</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c578c7a4978761105918b8e6f053afa8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>c578c7a4978761105918b8e6f053afa8</id>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 19:06:29</sys_created_on>
+        <sys_id>c978c7a4978761105918b8e6f053afa9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 19:06:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>c578c7a4978761105918b8e6f053afa8</id>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 19:06:29</sys_created_on>
+        <sys_id>0978c7a4978761105918b8e6f053afa9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 19:06:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>{{Created or Updated_1.table_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c578c7a4978761105918b8e6f053afa8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c578c7a4978761105918b8e6f053afa8"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a1d3d6e097c361105918b8e6f053af71"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=a1d3d6e097c361105918b8e6f053af71"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a1d3d6e097c361105918b8e6f053af71"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a1d3d6e097c361105918b8e6f053af71"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a1d3d6e097c361105918b8e6f053af71^sys_idNOT IN720d9a2c97c361105918b8e6f053af23,720d9a2c97c361105918b8e6f053af27,f20d9a2c97c361105918b8e6f053af2a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a1d3d6e097c361105918b8e6f053af71</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 15:56:49</sys_created_on>
+        <sys_id>720d9a2c97c361105918b8e6f053af23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 15:56:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a1d3d6e097c361105918b8e6f053af71</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 15:56:49</sys_created_on>
+        <sys_id>720d9a2c97c361105918b8e6f053af27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 15:56:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a1d3d6e097c361105918b8e6f053af71</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-23 15:56:49</sys_created_on>
+        <sys_id>f20d9a2c97c361105918b8e6f053af2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-23 15:56:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a1d3d6e097c361105918b8e6f053af71"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_a1d3d6e097c361105918b8e6f053af71"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a1d3d6e097c361105918b8e6f053af71"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a1d3d6e097c361105918b8e6f053af71"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a1d3d6e097c361105918b8e6f053af71"/>
+</record_update>
