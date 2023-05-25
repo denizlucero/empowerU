@@ -19,7 +19,7 @@
         <dynamic_ref_qual/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>u_string_13</field>
+        <field>u_string_1</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -39,13 +39,13 @@
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>u_string_13</name>
+        <name>u_string_1</name>
         <order>400</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Additional Comments</question_text>
+        <question_text>Feedback</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -54,8 +54,8 @@
         <record/>
         <record_producer_table>x_1022228_empoweru_empoweru_requests</record_producer_table>
         <reference/>
-        <reference_qual>undefined</reference_qual>
-        <reference_qual_condition>undefined</reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -75,14 +75,14 @@
         <sys_created_by>shakira.deary</sys_created_by>
         <sys_created_on>2023-05-22 21:26:48</sys_created_on>
         <sys_id>35deda54974721105918b8e6f053af1b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Additional Comments</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Feedback</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
         <sys_update_name>item_option_new_35deda54974721105918b8e6f053af1b</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-05-22 21:27:16</sys_updated_on>
+        <sys_updated_by>shakira.deary</sys_updated_by>
+        <sys_updated_on>2023-05-22 21:33:17</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
