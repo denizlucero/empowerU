@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Self-Service">08771d0cc0a8016401f604303b94b999</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>Request something</hint>
+        <homepage/>
+        <image>images/icons/dictionary.gif</image>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Service Catalog</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>catalog_home.do?sysparm_view=catalog_make_a_difference_with_empoweru</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-18 17:16:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af4ff4cb97f6e1105918b8e6f053afb2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>EmpowerU</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name>sys_app_module_af4ff4cb97f6e1105918b8e6f053afb2</sys_update_name>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-18 17:26:40</sys_updated_on>
+        <timeline_page/>
+        <title>EmpowerU</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

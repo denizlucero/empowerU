@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="Test">e4e3c9cf97f6e1105918b8e6f053afbc</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-18 17:36:31</sys_created_on>
+        <sys_id>46e34d03973ae1105918b8e6f053af2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test.catalog_test</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_test">4ee34d03973ae1105918b8e6f053af28</sys_portal_page>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_46e34d03973ae1105918b8e6f053af2a</sys_update_name>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-18 17:36:31</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>
