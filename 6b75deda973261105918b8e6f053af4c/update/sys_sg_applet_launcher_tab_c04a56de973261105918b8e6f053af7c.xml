@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
+    <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applet_launcher display_value="EmpowerU">844a56de973261105918b8e6f053af7a</applet_launcher>
+        <icon display_value="Home EmpowerU">044a56de973261105918b8e6f053af7c</icon>
+        <label>EmpowerU</label>
+        <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-16 15:58:18</sys_created_on>
+        <sys_id>c04a56de973261105918b8e6f053af7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EmpowerU</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_tab_c04a56de973261105918b8e6f053af7c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-16 15:58:18</sys_updated_on>
+    </sys_sg_applet_launcher_tab>
+</record_update>

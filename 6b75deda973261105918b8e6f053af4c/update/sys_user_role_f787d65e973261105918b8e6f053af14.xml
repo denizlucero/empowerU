@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1022228_empoweru.empoweru_impact_analyst</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>x_1022228_empoweru.empoweru_impact_analyst</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-16 15:46:33</sys_created_on>
+        <sys_id>f787d65e973261105918b8e6f053af14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1022228_empoweru.empoweru_impact_analyst</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name>sys_user_role_f787d65e973261105918b8e6f053af14</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-16 15:46:33</sys_updated_on>
+    </sys_user_role>
+</record_update>

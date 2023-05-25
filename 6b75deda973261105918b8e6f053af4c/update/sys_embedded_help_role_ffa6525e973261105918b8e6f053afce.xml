@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_1022228_empoweru.empoweru_admin" name="x_1022228_empoweru.empoweru_admin">73a6525e973261105918b8e6f053afce</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-16 15:42:44</sys_created_on>
+        <sys_id>ffa6525e973261105918b8e6f053afce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>73a6525e973261105918b8e6f053afce</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name>sys_embedded_help_role_ffa6525e973261105918b8e6f053afce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-16 15:42:44</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

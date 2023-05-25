@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
+    <sys_sg_view_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>EmpowerU Requests Detail Screen View Config</name>
+        <sys_class_name>sys_sg_view_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-16 15:58:19</sys_created_on>
+        <sys_id>804a5612977261105918b8e6f053afa3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EmpowerU Requests Detail Screen View Config</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name>sys_sg_view_config_804a5612977261105918b8e6f053afa3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-16 15:58:19</sys_updated_on>
+        <table>x_1022228_empoweru_empoweru_requests</table>
+        <template display_value="Template 01">6bb0be5c41a71010f877183fc9b8be0c</template>
+    </sys_sg_view_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=804a5612977261105918b8e6f053afa3"/>
+</record_update>
