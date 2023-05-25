@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables>/* EMPOWERU OFFICIAL COLORS */&#13;
+$empowerU-Primary: #2d80c3;&#13;
+$empowerU-Secondary: #ebf2f4;&#13;
+$empowerU-CloudWhite: #ece5de;&#13;
+$empowerU-CloudBlack: #323232;&#13;
+&#13;
+/* ELEMENT SPECIFIC CSS */&#13;
+$sp-tagline-color:		$empowerU-CloudWhite !default;&#13;
+$navbar-inverse-bg: 	#000000 !default;&#13;
+$navbar-inverse-link-color: $empowerU-CloudWhite !default;&#13;
+$navbar-inverse-link-hover-color: $empowerU-Primary !default;&#13;
+$body-bg: $empowerU-Secondary !default;&#13;
+h1,h2 {&#13;
+	font-family: 'Lobster Two', cursive;&#13;
+}</css_variables>
+        <footer/>
+        <footer_fixed>false</footer_fixed>
+        <header display_value="Employee Center Header">d0009941eb103010ed7966d6475228c1</header>
+        <name>EmpowerU</name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>shakira.deary</sys_created_by>
+        <sys_created_on>2023-05-22 15:22:12</sys_created_on>
+        <sys_id>0caa09d0970321105918b8e6f053af40</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>EmpowerU</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name>sp_theme_0caa09d0970321105918b8e6f053af40</sys_update_name>
+        <sys_updated_by>shakira.deary</sys_updated_by>
+        <sys_updated_on>2023-05-22 16:26:07</sys_updated_on>
+    </sp_theme>
+</record_update>

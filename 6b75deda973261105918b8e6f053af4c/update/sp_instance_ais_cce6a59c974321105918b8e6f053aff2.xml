@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description>Uniting Against Bullying, Inspiring Strength From Within</short_description>
+        <size>md</size>
+        <sp_column display_value="1">8e3bd9dc970321105918b8e6f053afe6</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-22 17:21:42</sys_created_on>
+        <sys_id>cce6a59c974321105918b8e6f053aff2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>EmpowerU Anti-Bullying Awareness</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name>sp_instance_ais_cce6a59c974321105918b8e6f053aff2</sys_update_name>
+        <sys_updated_by>shakira.deary</sys_updated_by>
+        <sys_updated_on>2023-05-22 19:28:04</sys_updated_on>
+        <title>EmpowerU Anti-Bullying Awareness</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"typeahead_search": {
+		"value": "How Can We Help You?",
+		"displayValue": "How Can We Help You?"
+	}
+}]]></widget_parameters>
+    </sp_instance_ais>
+    <sys_translated_text action="delete_multiple" query="documentkey=cce6a59c974321105918b8e6f053aff2"/>
+</record_update>
