@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Volunteer Sign-Up Table" language="en" table="x_1022228_empoweru_volunteer_sign_up_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Volunteer Sign-Up Table</label>
+            <language>en</language>
+            <name>x_1022228_empoweru_volunteer_sign_up_table</name>
+            <plural>Volunteer Sign-Up Tables</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>deniz.hernandez</sys_created_by>
+            <sys_created_on>2023-05-18 19:53:54</sys_created_on>
+            <sys_id>3253a94f977ae1105918b8e6f053af5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Volunteer Sign-Up Table</sys_name>
+            <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+            <sys_update_name>sys_documentation_x_1022228_empoweru_volunteer_sign_up_table__en</sys_update_name>
+            <sys_updated_by>deniz.hernandez</sys_updated_by>
+            <sys_updated_on>2023-05-18 19:53:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
