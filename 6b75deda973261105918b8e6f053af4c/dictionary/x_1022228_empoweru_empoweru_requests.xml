@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="57795ade973261105918b8e6f053af0f" extends="task" label="EmpowerU Requests" max_length="40" name="x_1022228_empoweru_empoweru_requests" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Other" mandatory="true" max_length="40" name="other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Event Date/Time" mandatory="true" max_length="40" name="u_calendar_date_time_2" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Event Date/Time" mandatory="true" max_length="40" name="u_calendar_date_time_5" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Nature of Support Needed" max_length="40" name="u_choice_10" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Advice" sequence="0" value="advice"/>
+                <element inactive_on_update="false" label="Counseling" sequence="1" value="counseling"/>
+                <element inactive_on_update="false" label="Awareness" sequence="2" value="awareness"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Sponsorship" label="Expression of Interest" mandatory="true" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sponsorship" sequence="0" value="Sponsorship"/>
+                <element inactive_on_update="false" label="Partnership" sequence="1" value="Partnership"/>
+                <element inactive_on_update="false" label="Volunteer" sequence="2" value="Volunteer"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="mentor" label="At what capacity would you like to volunteer?" mandatory="true" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Mentor" sequence="0" value="mentor"/>
+                <element inactive_on_update="false" label="Administrator" sequence="1" value="administrator"/>
+                <element inactive_on_update="false" label="Security" sequence="2" value="security"/>
+                <element inactive_on_update="false" label="Guest Speaker" sequence="3" value="guest speaker"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="monday" label="What days are you available?" mandatory="true" max_length="40" name="u_choice_5" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Monday" sequence="0" value="monday"/>
+                <element inactive_on_update="false" label="Tuesday" sequence="1" value="tuesday"/>
+                <element inactive_on_update="false" label="Wednesday" sequence="2" value="wednesday"/>
+                <element inactive_on_update="false" label="Thursday" sequence="3" value="thursday"/>
+                <element inactive_on_update="false" label="Friday" sequence="4" value="friday"/>
+                <element inactive_on_update="false" label="Saturday" sequence="5" value="saturday"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="morning" label="What time of the day are you available on those selected days?" max_length="40" name="u_choice_6" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Morning" sequence="0" value="morning"/>
+                <element inactive_on_update="false" label="Afternoon" sequence="1" value="afternoon"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Evening" sequence="2" value="evening"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Expression of Interest" mandatory="true" max_length="40" name="u_choice_7" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sponsorship" sequence="0" value="sponsorship"/>
+                <element inactive_on_update="false" label="Partnership" sequence="1" value="partnership"/>
+                <element inactive_on_update="false" label="Volunteer" sequence="2" value="volunteer"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Nature of Support Needed" max_length="40" name="u_choice_8" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Advice" sequence="0" value="advice"/>
+                <element inactive_on_update="false" label="Counseling" sequence="1" value="counseling"/>
+                <element inactive_on_update="false" label="Awareness" sequence="2" value="awareness"/>
+            </choice>
+        </element>
+        <element label="Full Name" mandatory="true" max_length="80" name="u_field_name_1" type="field_name"/>
+        <element label="Full Name" mandatory="true" max_length="80" name="u_field_name_4" type="field_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Feedback" mandatory="true" max_length="500" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="How You Can Contribute" mandatory="true" max_length="500" name="u_string_12" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional Comments" max_length="200" name="u_string_13" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Organization" max_length="500" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="200" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" mandatory="true" max_length="200" name="u_string_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Full Name" mandatory="true" max_length="200" name="u_string_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Organization" max_length="200" name="u_string_6" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="200" name="u_string_7" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" mandatory="true" max_length="100" name="u_string_8" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="How You Can Contribute" mandatory="true" max_length="500" name="u_string_9" type="string"/>
+    </element>
+</database>

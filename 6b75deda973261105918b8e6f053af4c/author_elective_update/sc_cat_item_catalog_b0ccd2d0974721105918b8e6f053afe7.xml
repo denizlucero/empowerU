@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Feedback">ba48929c970721105918b8e6f053afd6</sc_cat_item>
+        <sc_catalog display_value="Make a Difference with EmpowerU">6cdee7e29736a1105918b8e6f053af9a</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>shakira.deary</sys_created_by>
+        <sys_created_on>2023-05-22 21:17:07</sys_created_on>
+        <sys_id>b0ccd2d0974721105918b8e6f053afe7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Make a Difference with EmpowerU.Feedback</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_b0ccd2d0974721105918b8e6f053afe7</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-05-22 21:17:18</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</application>
+        <file_path/>
+        <instance_id>8006c0f5db2b13401ddcf22ebf961903</instance_id>
+        <instance_name>dev67366</instance_name>
+        <name>sc_cat_item_catalog_b0ccd2d0974721105918b8e6f053afe7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="DELETE"><sc_cat_item display_value="Feedback">ba48929c970721105918b8e6f053afd6</sc_cat_item><sc_catalog display_value="Make a Difference with EmpowerU">6cdee7e29736a1105918b8e6f053af9a</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>shakira.deary</sys_created_by><sys_created_on>2023-05-22 21:17:07</sys_created_on><sys_id>b0ccd2d0974721105918b8e6f053afe7</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Make a Difference with EmpowerU.Feedback</sys_name><sys_package/><sys_policy/><sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope><sys_update_name>sc_cat_item_catalog_b0ccd2d0974721105918b8e6f053afe7</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-05-22 21:17:18</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1485378097</payload_hash>
+        <record_name>Make a Difference with EmpowerU.Feedback</record_name>
+        <reverted_from/>
+        <source>c91fde54974721105918b8e6f053af3a</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-05-22 21:27:14</sys_created_on>
+        <sys_id>c51fde54974721105918b8e6f053af3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188455bf7150000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-05-22 21:27:14</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>c91fde54c3472110237424db6e0fcc3e</update_guid>
+        <update_guid_history>c91fde54c3472110237424db6e0fcc3e:1485378097,9fcc16d0cb4721107e45f2a17c2de7a7:-1524270787</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Make a Difference with EmpowerU.Feedback">891fde54974721105918b8e6f053af42</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-05-22 21:27:15</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>3c5b6696adc848e9970d29a74853e439</sys_id>
+        <sys_metadata>b0ccd2d0974721105918b8e6f053afe7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make a Difference with EmpowerU.Feedback</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_parent display_value="Feedback">ba48929c970721105918b8e6f053afd6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_scope_delete display_value="">75df3fe78826463d8e018ffcf52054f9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_b0ccd2d0974721105918b8e6f053afe7</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_b0ccd2d0974721105918b8e6f053afe7">c51fde54974721105918b8e6f053af3f</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-05-22 21:27:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

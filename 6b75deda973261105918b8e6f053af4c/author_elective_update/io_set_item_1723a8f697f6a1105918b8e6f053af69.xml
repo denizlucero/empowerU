@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="Donation">2db120b697f6a1105918b8e6f053afa8</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-17 20:35:01</sys_created_on>
+        <sys_id>1723a8f697f6a1105918b8e6f053af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Standard Employee Questions.Donation</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name>io_set_item_1723a8f697f6a1105918b8e6f053af69</sys_update_name>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-17 20:35:01</sys_updated_on>
+        <variable_set display_value="Standard Employee Questions">e01cab1a4f334200086eeed18110c71f</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</application>
+        <file_path/>
+        <instance_id>8006c0f5db2b13401ddcf22ebf961903</instance_id>
+        <instance_name>dev67366</instance_name>
+        <name>io_set_item_1723a8f697f6a1105918b8e6f053af69</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="Donation">2db120b697f6a1105918b8e6f053afa8</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>deniz.hernandez</sys_created_by><sys_created_on>2023-05-17 20:35:01</sys_created_on><sys_id>1723a8f697f6a1105918b8e6f053af69</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Standard Employee Questions.Donation</sys_name><sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package><sys_policy/><sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope><sys_update_name>io_set_item_1723a8f697f6a1105918b8e6f053af69</sys_update_name><sys_updated_by>deniz.hernandez</sys_updated_by><sys_updated_on>2023-05-17 20:35:01</sys_updated_on><variable_set display_value="Standard Employee Questions">e01cab1a4f334200086eeed18110c71f</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>1627041167</payload_hash>
+        <record_name>Standard Employee Questions.Donation</record_name>
+        <reverted_from/>
+        <source>a775deda973261105918b8e6f053af4e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-17 20:35:01</sys_created_on>
+        <sys_id>d723a8f697f6a1105918b8e6f053afab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1882b6c5c4e0000001</sys_recorded_at>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-17 20:35:01</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>5f23a8f628f6a110d0bb0a8ba50e8baa</update_guid>
+        <update_guid_history>5f23a8f628f6a110d0bb0a8ba50e8baa:1627041167</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Standard Employee Questions.Donation">b8a3471397b621105918b8e6f053af75</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shakira.deary</sys_created_by>
+        <sys_created_on>2023-05-19 21:33:03</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>598c79008ec44f1aa08f44935036dfd1</sys_id>
+        <sys_metadata>1723a8f697f6a1105918b8e6f053af69</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Standard Employee Questions.Donation</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_scope_delete display_value="">75df3fe78826463d8e018ffcf52054f9</sys_scope_delete>
+        <sys_update_name>io_set_item_1723a8f697f6a1105918b8e6f053af69</sys_update_name>
+        <sys_update_version display_value="io_set_item_1723a8f697f6a1105918b8e6f053af69">d723a8f697f6a1105918b8e6f053afab</sys_update_version>
+        <sys_updated_by>shakira.deary</sys_updated_by>
+        <sys_updated_on>2023-05-19 21:33:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

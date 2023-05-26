@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="EmpowerU Mugs">9336bbaa9736a1105918b8e6f053af3d</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-17 18:57:28</sys_created_on>
+        <sys_id>16dc843297b6a1105918b8e6f053af1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.EmpowerU Mugs</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_16dc843297b6a1105918b8e6f053af1a</sys_update_name>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-17 18:57:28</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</application>
+        <file_path/>
+        <instance_id>8006c0f5db2b13401ddcf22ebf961903</instance_id>
+        <instance_name>dev67366</instance_name>
+        <name>sc_cat_item_catalog_16dc843297b6a1105918b8e6f053af1a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="EmpowerU Mugs">9336bbaa9736a1105918b8e6f053af3d</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>deniz.hernandez</sys_created_by><sys_created_on>2023-05-17 18:57:28</sys_created_on><sys_id>16dc843297b6a1105918b8e6f053af1a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.EmpowerU Mugs</sys_name><sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package><sys_policy/><sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope><sys_update_name>sc_cat_item_catalog_16dc843297b6a1105918b8e6f053af1a</sys_update_name><sys_updated_by>deniz.hernandez</sys_updated_by><sys_updated_on>2023-05-17 18:57:28</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>495879699</payload_hash>
+        <record_name>Service Catalog.EmpowerU Mugs</record_name>
+        <reverted_from/>
+        <source>a775deda973261105918b8e6f053af4e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-17 18:57:28</sys_created_on>
+        <sys_id>56dc843297b6a1105918b8e6f053af1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1882b130a730000001</sys_recorded_at>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-17 18:57:28</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>9edc84323db6a110b98dae47b4700c1c</update_guid>
+        <update_guid_history>9edc84323db6a110b98dae47b4700c1c:495879699</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.EmpowerU Mugs">c74d447297b6a1105918b8e6f053af1c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-17 18:59:26</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>49003528a6654f28a9dd72717eb83444</sys_id>
+        <sys_metadata>16dc843297b6a1105918b8e6f053af1a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.EmpowerU Mugs</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_parent display_value="EmpowerU Mugs">9336bbaa9736a1105918b8e6f053af3d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_scope_delete display_value="">75df3fe78826463d8e018ffcf52054f9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_16dc843297b6a1105918b8e6f053af1a</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_16dc843297b6a1105918b8e6f053af1a">56dc843297b6a1105918b8e6f053af1d</sys_update_version>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-17 18:59:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

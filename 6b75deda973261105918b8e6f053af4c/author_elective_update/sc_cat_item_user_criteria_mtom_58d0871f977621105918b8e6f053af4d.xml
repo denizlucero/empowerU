@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Donations">1adf321f977621105918b8e6f053af92</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>tolulope.solola</sys_created_by>
+        <sys_created_on>2023-05-19 21:20:44</sys_created_on>
+        <sys_id>58d0871f977621105918b8e6f053af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Donations.Any User</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_58d0871f977621105918b8e6f053af4d</sys_update_name>
+        <sys_updated_by>tolulope.solola</sys_updated_by>
+        <sys_updated_on>2023-05-19 21:20:44</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</application>
+        <file_path/>
+        <instance_id>8006c0f5db2b13401ddcf22ebf961903</instance_id>
+        <instance_name>dev67366</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_58d0871f977621105918b8e6f053af4d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Donations">1adf321f977621105918b8e6f053af92</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>tolulope.solola</sys_created_by><sys_created_on>2023-05-19 21:20:44</sys_created_on><sys_id>58d0871f977621105918b8e6f053af4d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Donations.Any User</sys_name><sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package><sys_policy/><sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_58d0871f977621105918b8e6f053af4d</sys_update_name><sys_updated_by>tolulope.solola</sys_updated_by><sys_updated_on>2023-05-19 21:20:44</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>-536558488</payload_hash>
+        <record_name>Donations.Any User</record_name>
+        <reverted_from/>
+        <source>a775deda973261105918b8e6f053af4e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tolulope.solola</sys_created_by>
+        <sys_created_on>2023-05-19 21:20:44</sys_created_on>
+        <sys_id>50d0435f977621105918b8e6f053af1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18835e2ed490000001</sys_recorded_at>
+        <sys_updated_by>tolulope.solola</sys_updated_by>
+        <sys_updated_on>2023-05-19 21:20:44</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>98d0435fd7762110cbf07e3481faf419</update_guid>
+        <update_guid_history>98d0435fd7762110cbf07e3481faf419:-536558488</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Donations.Any User">b6328b9f977621105918b8e6f053af20</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-05-19 21:26:54</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>1edfba0a1ec4485790bdcaddefec70c9</sys_id>
+        <sys_metadata>58d0871f977621105918b8e6f053af4d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Donations.Any User</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_scope_delete display_value="">75df3fe78826463d8e018ffcf52054f9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_58d0871f977621105918b8e6f053af4d</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_58d0871f977621105918b8e6f053af4d">50d0435f977621105918b8e6f053af1a</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-05-19 21:26:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

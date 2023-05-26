@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Donations">1adf321f977621105918b8e6f053af92</sc_cat_item>
+        <sc_catalog display_value="Make a Difference with EmpowerU">6cdee7e29736a1105918b8e6f053af9a</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>tolulope.solola</sys_created_by>
+        <sys_created_on>2023-05-19 21:21:23</sys_created_on>
+        <sys_id>3df0075f977621105918b8e6f053af4f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Make a Difference with EmpowerU.Donations</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_3df0075f977621105918b8e6f053af4f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-05-19 21:26:54</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</application>
+        <file_path/>
+        <instance_id>8006c0f5db2b13401ddcf22ebf961903</instance_id>
+        <instance_name>dev67366</instance_name>
+        <name>sc_cat_item_catalog_3df0075f977621105918b8e6f053af4f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Donations">1adf321f977621105918b8e6f053af92</sc_cat_item><sc_catalog display_value="Make a Difference with EmpowerU">6cdee7e29736a1105918b8e6f053af9a</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>tolulope.solola</sys_created_by><sys_created_on>2023-05-19 21:21:23</sys_created_on><sys_id>3df0075f977621105918b8e6f053af4f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Make a Difference with EmpowerU.Donations</sys_name><sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package><sys_policy/><sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope><sys_update_name>sc_cat_item_catalog_3df0075f977621105918b8e6f053af4f</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-05-19 21:26:54</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>2058845815</payload_hash>
+        <record_name>Make a Difference with EmpowerU.Donations</record_name>
+        <reverted_from/>
+        <source>36324b9f977621105918b8e6f053afea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-05-19 21:26:54</sys_created_on>
+        <sys_id>72328b9f977621105918b8e6f053af11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18835e893de0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-05-19 21:26:54</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>3a328b9f367621104e03544ebecc4d10</update_guid>
+        <update_guid_history>3a328b9f367621104e03544ebecc4d10:2058845815</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Make a Difference with EmpowerU.Donations">0834471397b621105918b8e6f053afc3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shakira.deary</sys_created_by>
+        <sys_created_on>2023-05-19 21:35:27</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>69b6663b737b4b18bf02094f0b33c541</sys_id>
+        <sys_metadata>3df0075f977621105918b8e6f053af4f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make a Difference with EmpowerU.Donations</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_parent display_value="">1adf321f977621105918b8e6f053af92</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_scope_delete display_value="">75df3fe78826463d8e018ffcf52054f9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_3df0075f977621105918b8e6f053af4f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_3df0075f977621105918b8e6f053af4f">72328b9f977621105918b8e6f053af11</sys_update_version>
+        <sys_updated_by>shakira.deary</sys_updated_by>
+        <sys_updated_on>2023-05-19 21:35:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

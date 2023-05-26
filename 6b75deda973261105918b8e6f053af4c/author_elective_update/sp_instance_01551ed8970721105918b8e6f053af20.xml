@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">5e7b4290970721105918b8e6f053afb5</sp_column>
+        <sp_widget display_value="Employee Center Footer">ce046d5773603010c94f54eb7df6a7ec</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>shakira.deary</sys_created_by>
+        <sys_created_on>2023-05-22 20:44:39</sys_created_on>
+        <sys_id>01551ed8970721105918b8e6f053af20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name>sp_instance_01551ed8970721105918b8e6f053af20</sys_update_name>
+        <sys_updated_by>shakira.deary</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:44:39</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=01551ed8970721105918b8e6f053af20"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</application>
+        <file_path/>
+        <instance_id>8006c0f5db2b13401ddcf22ebf961903</instance_id>
+        <instance_name>dev67366</instance_name>
+        <name>sp_instance_01551ed8970721105918b8e6f053af20</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="1">5e7b4290970721105918b8e6f053afb5</sp_column><sp_widget display_value="Employee Center Footer">ce046d5773603010c94f54eb7df6a7ec</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>shakira.deary</sys_created_by><sys_created_on>2023-05-22 20:44:39</sys_created_on><sys_id>01551ed8970721105918b8e6f053af20</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package><sys_policy/><sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope><sys_update_name>sp_instance_01551ed8970721105918b8e6f053af20</sys_update_name><sys_updated_by>shakira.deary</sys_updated_by><sys_updated_on>2023-05-22 20:44:39</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=01551ed8970721105918b8e6f053af20"/></record_update>]]></payload>
+        <payload_hash>185947835</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a775deda973261105918b8e6f053af4e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shakira.deary</sys_created_by>
+        <sys_created_on>2023-05-22 20:44:39</sys_created_on>
+        <sys_id>91551ed8970721105918b8e6f053af22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1884534f99b0000001</sys_recorded_at>
+        <sys_updated_by>shakira.deary</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:44:39</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>d9551ed8fb0721108168794a6d7ac321</update_guid>
+        <update_guid_history>d9551ed8fb0721108168794a6d7ac321:185947835</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a2955a58970721105918b8e6f053af62</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shakira.deary</sys_created_by>
+        <sys_created_on>2023-05-22 20:45:50</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>4978fb74095244d2b76c13be53fa4e09</sys_id>
+        <sys_metadata>01551ed8970721105918b8e6f053af20</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_scope_delete display_value="">75df3fe78826463d8e018ffcf52054f9</sys_scope_delete>
+        <sys_update_name>sp_instance_01551ed8970721105918b8e6f053af20</sys_update_name>
+        <sys_update_version display_value="sp_instance_01551ed8970721105918b8e6f053af20">91551ed8970721105918b8e6f053af22</sys_update_version>
+        <sys_updated_by>shakira.deary</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:45:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

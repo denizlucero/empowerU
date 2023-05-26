@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="Copy of Home Page (1) - Container 3">c27b4290970721105918b8e6f053af75</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>shakira.deary</sys_created_by>
+        <sys_created_on>2023-05-22 20:01:34</sys_created_on>
+        <sys_id>c27b4290970721105918b8e6f053af77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name>sp_row_c27b4290970721105918b8e6f053af77</sys_update_name>
+        <sys_updated_by>shakira.deary</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:01:34</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</application>
+        <file_path/>
+        <instance_id>8006c0f5db2b13401ddcf22ebf961903</instance_id>
+        <instance_name>dev67366</instance_name>
+        <name>sp_row_c27b4290970721105918b8e6f053af77</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="Copy of Home Page (1) - Container 3">c27b4290970721105918b8e6f053af75</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>shakira.deary</sys_created_by><sys_created_on>2023-05-22 20:01:34</sys_created_on><sys_id>c27b4290970721105918b8e6f053af77</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package><sys_policy/><sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope><sys_update_name>sp_row_c27b4290970721105918b8e6f053af77</sys_update_name><sys_updated_by>shakira.deary</sys_updated_by><sys_updated_on>2023-05-22 20:01:34</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>1822751045</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>a775deda973261105918b8e6f053af4e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shakira.deary</sys_created_by>
+        <sys_created_on>2023-05-22 20:01:34</sys_created_on>
+        <sys_id>0e7b4290970721105918b8e6f053af78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188450d88800000001</sys_recorded_at>
+        <sys_updated_by>shakira.deary</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:01:34</sys_updated_on>
+        <type>Row</type>
+        <update_guid>467b4290130721107439a63fd5248d78</update_guid>
+        <update_guid_history>467b4290130721107439a63fd5248d78:1822751045</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">a3ce8654970721105918b8e6f053af25</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shakira.deary</sys_created_by>
+        <sys_created_on>2023-05-22 20:16:08</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>82f35589f0c44f7090d4886c21078790</sys_id>
+        <sys_metadata>c27b4290970721105918b8e6f053af77</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_scope_delete display_value="">75df3fe78826463d8e018ffcf52054f9</sys_scope_delete>
+        <sys_update_name>sp_row_c27b4290970721105918b8e6f053af77</sys_update_name>
+        <sys_update_version display_value="sp_row_c27b4290970721105918b8e6f053af77">0e7b4290970721105918b8e6f053af78</sys_update_version>
+        <sys_updated_by>shakira.deary</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:16:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

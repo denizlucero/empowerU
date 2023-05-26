@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Volunteer Sign-Up">05f628cf9776e1105918b8e6f053af0a</sc_cat_item>
+        <sc_catalog display_value="Make a Difference with EmpowerU">6cdee7e29736a1105918b8e6f053af9a</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-18 15:34:45</sys_created_on>
+        <sys_id>6608a80797b6e1105918b8e6f053afaa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Make a Difference with EmpowerU.Volunteer Sign-Up</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_6608a80797b6e1105918b8e6f053afaa</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-05-18 16:22:53</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</application>
+        <file_path/>
+        <instance_id>8006c0f5db2b13401ddcf22ebf961903</instance_id>
+        <instance_name>dev67366</instance_name>
+        <name>sc_cat_item_catalog_6608a80797b6e1105918b8e6f053afaa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="DELETE"><sc_cat_item display_value="Volunteer Sign-Up">05f628cf9776e1105918b8e6f053af0a</sc_cat_item><sc_catalog display_value="Make a Difference with EmpowerU">6cdee7e29736a1105918b8e6f053af9a</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>deniz.hernandez</sys_created_by><sys_created_on>2023-05-18 15:34:45</sys_created_on><sys_id>6608a80797b6e1105918b8e6f053afaa</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Make a Difference with EmpowerU.Volunteer Sign-Up</sys_name><sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package><sys_policy/><sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope><sys_update_name>sc_cat_item_catalog_6608a80797b6e1105918b8e6f053afaa</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-05-18 16:22:53</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-677050608</payload_hash>
+        <record_name>Make a Difference with EmpowerU.Volunteer Sign-Up</record_name>
+        <reverted_from/>
+        <source>702fe6ac970761105918b8e6f053af85</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-05-23 17:15:53</sys_created_on>
+        <sys_id>3c2f2aac970761105918b8e6f053af23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188499c34930000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-05-23 17:15:53</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>302f2aacb4076110e1892cced423be23</update_guid>
+        <update_guid_history>302f2aacb4076110e1892cced423be23:-677050608,6703700388f6e1104f6a28fe4604f8f0:576653340</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Make a Difference with EmpowerU.Volunteer Sign-Up">702f2aac970761105918b8e6f053af28</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-05-23 17:15:53</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>7c30417b9c12452484a029698000d0f1</sys_id>
+        <sys_metadata>6608a80797b6e1105918b8e6f053afaa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make a Difference with EmpowerU.Volunteer Sign-Up</sys_name>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_parent display_value="Volunteer Sign-Up">05f628cf9776e1105918b8e6f053af0a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_scope_delete display_value="">75df3fe78826463d8e018ffcf52054f9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_6608a80797b6e1105918b8e6f053afaa</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_6608a80797b6e1105918b8e6f053afaa">3c2f2aac970761105918b8e6f053af23</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-05-23 17:15:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

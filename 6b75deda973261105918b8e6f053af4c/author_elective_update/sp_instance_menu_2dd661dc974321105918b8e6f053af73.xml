@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu">
+    <sp_instance_menu action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">8e3bd9dc970321105918b8e6f053afe6</sp_column>
+        <sp_widget display_value="Header Menu">5ef595c1cb12020000f8d856634c9c6e</sp_widget>
+        <sys_class_name>sp_instance_menu</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-22 17:21:31</sys_created_on>
+        <sys_id>2dd661dc974321105918b8e6f053af73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_update_name>sp_instance_menu_2dd661dc974321105918b8e6f053af73</sys_update_name>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-22 17:21:31</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_menu>
+    <sys_translated_text action="DELETE" query="documentkey=2dd661dc974321105918b8e6f053af73"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</application>
+        <file_path/>
+        <instance_id>8006c0f5db2b13401ddcf22ebf961903</instance_id>
+        <instance_name>dev67366</instance_name>
+        <name>sp_instance_menu_2dd661dc974321105918b8e6f053af73</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu"><sp_instance_menu action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">8e3bd9dc970321105918b8e6f053afe6</sp_column><sp_widget display_value="Header Menu">5ef595c1cb12020000f8d856634c9c6e</sp_widget><sys_class_name>sp_instance_menu</sys_class_name><sys_created_by>deniz.hernandez</sys_created_by><sys_created_on>2023-05-22 17:21:31</sys_created_on><sys_id>2dd661dc974321105918b8e6f053af73</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package><sys_policy/><sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope><sys_update_name>sp_instance_menu_2dd661dc974321105918b8e6f053af73</sys_update_name><sys_updated_by>deniz.hernandez</sys_updated_by><sys_updated_on>2023-05-22 17:21:31</sys_updated_on><title/><url/><widget_parameters/></sp_instance_menu><sys_translated_text action="delete_multiple" query="documentkey=2dd661dc974321105918b8e6f053af73"/></record_update>]]></payload>
+        <payload_hash>-1480533184</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a775deda973261105918b8e6f053af4e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-22 17:21:32</sys_created_on>
+        <sys_id>3dd661dc974321105918b8e6f053af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188447b01d70000001</sys_recorded_at>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-22 17:21:32</sys_updated_on>
+        <type>Instance with Menu</type>
+        <update_guid>75d661dc9f432110c5fd71a817b68d75</update_guid>
+        <update_guid_history>75d661dc9f432110c5fd71a817b68d75:-1480533184</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">dbd6ed9c974321105918b8e6f053af32</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>deniz.hernandez</sys_created_by>
+        <sys_created_on>2023-05-22 17:21:38</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_menu">sp_instance_menu</sys_db_object>
+        <sys_id>787400e4649644feb97ed93d1b1f5359</sys_id>
+        <sys_metadata>2dd661dc974321105918b8e6f053af73</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EmpowerU" source="x_1022228_empoweru">6b75deda973261105918b8e6f053af4c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EmpowerU">6b75deda973261105918b8e6f053af4c</sys_scope>
+        <sys_scope_delete display_value="">75df3fe78826463d8e018ffcf52054f9</sys_scope_delete>
+        <sys_update_name>sp_instance_menu_2dd661dc974321105918b8e6f053af73</sys_update_name>
+        <sys_update_version display_value="sp_instance_menu_2dd661dc974321105918b8e6f053af73">3dd661dc974321105918b8e6f053af75</sys_update_version>
+        <sys_updated_by>deniz.hernandez</sys_updated_by>
+        <sys_updated_on>2023-05-22 17:21:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

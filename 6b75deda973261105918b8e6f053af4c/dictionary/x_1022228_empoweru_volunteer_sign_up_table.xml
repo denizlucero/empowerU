@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7603654f977ae1105918b8e6f053afa4" label="Volunteer Sign-Up Table" max_length="40" name="x_1022228_empoweru_volunteer_sign_up_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="1 - urgent" label="Priority" mandatory="true" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1 - Urgent" sequence="0" value="1 - urgent"/>
+                <element inactive_on_update="false" label="2 - Planning" sequence="1" value="2 - planning"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="mentor" label="At what capacity would you like to volunteer?" mandatory="true" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Mentor" sequence="0" value="mentor"/>
+                <element inactive_on_update="false" label="Administrator" sequence="1" value="administrator"/>
+                <element inactive_on_update="false" label="Security" sequence="2" value="security"/>
+                <element inactive_on_update="false" label="Guest Speaker" sequence="3" value="guest speaker"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="monday" label="What days are you available?" mandatory="true" max_length="40" name="u_choice_5" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Monday" sequence="0" value="monday"/>
+                <element inactive_on_update="false" label="Tuesday" sequence="1" value="tuesday"/>
+                <element inactive_on_update="false" label="Wednesday" sequence="2" value="wednesday"/>
+                <element inactive_on_update="false" label="Thursday" sequence="3" value="thursday"/>
+                <element inactive_on_update="false" label="Friday" sequence="4" value="friday"/>
+                <element inactive_on_update="false" label="Saturday" sequence="5" value="saturday"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="morning" label="What time of the day are you available on those selected days?" mandatory="true" max_length="40" name="u_choice_6" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Morning" sequence="0" value="morning"/>
+                <element inactive_on_update="false" label="Afternoon" sequence="1" value="afternoon"/>
+                <element inactive_on_update="false" label="Evening" sequence="2" value="evening"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element label="Full Name" mandatory="true" max_length="80" name="u_field_name_1" type="field_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="400" name="u_string_10" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" mandatory="true" max_length="500" name="u_string_11" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="500" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional Comments" max_length="500" name="u_string_8" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Full Name" mandatory="true" max_length="500" name="u_string_9" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" mandatory="true" max_length="255" name="u_string_full_utf8_3" type="string_full_utf8"/>
+    </element>
+</database>
